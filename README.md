@@ -1,5 +1,10 @@
 # xmr-node-proxy
 
+## Other cryptocurrency support
+
+This proxy fork also supports Sumokoin. Please see config_example.json on how to configure it. Proxy can work with multiple coins at the same time but different port for every coin. Shares are also different for each coin.
+Example config includes Sumokoin on port 4444 as example.
+Upstream also supports AEON but this wasn't noted before. It can be configured same way.
 
 ## Setup Instructions
 
