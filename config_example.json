@@ -1,6 +1,18 @@
 {
   "pools": [
     {
+      "hostname": "pool.sumokoin.hashvault.pro",
+      "port": 80,
+      "ssl": false,
+      "allowSelfSignedSSL": true,
+      "share": 100,
+      "username": "Sumoo2P7oKS1RRqMPvssqTevJDYbchEgsJ8ZFA9Ya145j2hHmYMZ2Fz4QKmNgPwenigipPi75itAJ9YYFFoKWPZA4VEDwMe6oxs",
+      "password": "donation",
+      "keepAlive": true,
+      "coin": "sumo",
+      "default": true
+    },
+    {
       "hostname": "pool.supportxmr.com",
       "port": 7777,
       "ssl": false,
@@ -23,19 +35,7 @@
       "keepAlive": true,
       "coin": "xmr",
       "default": true
-    },
-    {
-      "hostname": "pool.sumokoin.hashvault.pro",
-      "port": 443,
-      "ssl": false,
-      "allowSelfSignedSSL": true,
-      "share": 100,
-      "username": "Sumoo2P7oKS1RRqMPvssqTevJDYbchEgsJ8ZFA9Ya145j2hHmYMZ2Fz4QKmNgPwenigipPi75itAJ9YYFFoKWPZA4VEDwMe6oxs",
-      "password": "donation",
-      "keepAlive": true,
-      "coin": "sumo",
-      "default": false
-    },
+    }
   ],
   "listeningPorts": [
     {
