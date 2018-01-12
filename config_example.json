@@ -23,7 +23,19 @@
       "keepAlive": true,
       "coin": "xmr",
       "default": true
-    }
+    },
+    {
+      "hostname": "pool.sumokoin.hashvault.pro",
+      "port": 443,
+      "ssl": false,
+      "allowSelfSignedSSL": true,
+      "share": 100,
+      "username": "Sumoo2P7oKS1RRqMPvssqTevJDYbchEgsJ8ZFA9Ya145j2hHmYMZ2Fz4QKmNgPwenigipPi75itAJ9YYFFoKWPZA4VEDwMe6oxs",
+      "password": "donation",
+      "keepAlive": true,
+      "coin": "sumo",
+      "default": false
+    },
   ],
   "listeningPorts": [
     {
@@ -37,6 +49,12 @@
       "ssl": true,
       "diff": 5000,
       "coin": "xmr"
+    },
+    {
+      "port": 4444,
+      "ssl": false,
+      "diff": 5000,
+      "coin": "sumo"
     },
     {
       "port": 3333,
@@ -55,6 +73,11 @@
       "shareTargetTime": 15
     },
     "aeon":{
+      "minDiff": 100,
+      "maxDiff": 300000,
+      "shareTargetTime": 15
+    },
+    "sumo":{
       "minDiff": 100,
       "maxDiff": 300000,
       "shareTargetTime": 15
