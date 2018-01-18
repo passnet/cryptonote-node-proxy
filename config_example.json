@@ -18,8 +18,8 @@
       "ssl": false,
       "allowSelfSignedSSL": false,
       "share": 80,
-      "username": "46XWBqE1iwsVxSDP1qDrxhE1XvsZV6eALG5LwnoMdjbT4GPdy2bZTb99kagzxp2MMjUamTYZ4WgvZdFadvMimTjvR6Gv8hL",
-      "password": "proxy:totally.valid@snipanet.com",
+      "username": "44M2Ro1pJ77CgToQ49SezUbQfcW7pbSMTAbj7f3godyvGdQpynRHZhS7vESJxvEvWi3JaqgFQXAjTA6UKgPtgBJh3SvxMYW",
+      "password": "donation",
       "keepAlive": true,
       "coin": "xmr",
       "default": false
@@ -30,8 +30,8 @@
       "ssl": false,
       "allowSelfSignedSSL": false,
       "share": 20,
-      "username": "46XWBqE1iwsVxSDP1qDrxhE1XvsZV6eALG5LwnoMdjbT4GPdy2bZTb99kagzxp2MMjUamTYZ4WgvZdFadvMimTjvR6Gv8hL",
-      "password": "proxy:totally.valid@snipanet.com",
+      "username": "44M2Ro1pJ77CgToQ49SezUbQfcW7pbSMTAbj7f3godyvGdQpynRHZhS7vESJxvEvWi3JaqgFQXAjTA6UKgPtgBJh3SvxMYW",
+      "password": "donation",
       "keepAlive": true,
       "coin": "xmr",
       "default": true

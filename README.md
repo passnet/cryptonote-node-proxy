@@ -1,4 +1,4 @@
-# xmr-node-proxy
+# cryptonote-node-proxy
 
 ## Other cryptocurrency support
 
@@ -25,10 +25,10 @@ passwd nodeproxy
 echo "nodeproxy ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 ```
 
-3. Log in as the **NON-ROOT USER** you just created and run the [deploy script](https://raw.githubusercontent.com/Snipa22/xmr-node-proxy/master/install.sh).  This is very important!  This script will install the proxy to whatever user it's running under!
+3. Log in as the **NON-ROOT USER** you just created and run the [deploy script](https://github.com/passnet/cryptonote-node-proxy/raw/master/install.sh).  This is very important!  This script will install the proxy to whatever user it's running under!
 
 ```bash
-curl -L https://raw.githubusercontent.com/Snipa22/xmr-node-proxy/master/install.sh | bash
+curl -L https://github.com/passnet/cryptonote-node-proxy/raw/master/install.sh | bash
 ```
 
 3. Once it's complete, copy `example_config.json` to `config.json` and edit as desired.
@@ -36,7 +36,7 @@ curl -L https://raw.githubusercontent.com/Snipa22/xmr-node-proxy/master/install.
 8. Once you're happy with the settings, go ahead and start all the proxy daemon, commands follow.
 
 ```shell
-cd ~/xmr-node-proxy/
+cd ~/cryptonote-node-proxy/
 pm2 start proxy.js --name=proxy --log-date-format="YYYY-MM-DD HH:mm Z"
 pm2 save
 ```
@@ -76,28 +76,24 @@ In testing, we've seen AWS t2.micro instances take upwards of 2k connections, wh
 
 ## Configuration Guidelines
 
-Please check the [wiki](https://github.com/Snipa22/xmr-node-proxy/wiki/config_review) for information on configuration
+Please check the [wiki](https://github.com/passnet/cryptonote-node-proxy/wiki/config_review) for information on configuration
 
 ## Developer Donations
 
 The proxy is pre-configured for a 1% donation. This is easily toggled inside of it's configuration. If you'd like to make a one time donation, the addresses are as follows:
 
+* XMR - 44M2Ro1pJ77CgToQ49SezUbQfcW7pbSMTAbj7f3godyvGdQpynRHZhS7vESJxvEvWi3JaqgFQXAjTA6UKgPtgBJh3SvxMYW
+* BTC - 1GEuaQ8v4e9KFUSE5J4MMEHQR2WsMYpdz
+* SUMO - Sumoo2P7oKS1RRqMPvssqTevJDYbchEgsJ8ZFA9Ya145j2hHmYMZ2Fz4QKmNgPwenigipPi75itAJ9YYFFoKWPZA4VEDwMe6oxs
+
+You can also support original proxy developer Snipa22 by donating to those addresses:
+
 * XMR - 44Ldv5GQQhP7K7t3ZBdZjkPA7Kg7dhHwk3ZM3RJqxxrecENSFx27Vq14NAMAd2HBvwEPUVVvydPRLcC69JCZDHLT2X5a4gr
 * BTC - 114DGE2jmPb5CP2RGKZn6u6xtccHhZGFmM
 
-## Installation/Configuration Assistance
-
-If you need help installing the pool from scratch, please have your servers ready, which would be Ubuntu 16.04 servers, blank and clean, DNS records pointed.  These need to be x86_64 boxes with AES-NI Available.
-
-Installation asstiance is 4 XMR, with a 2 XMR deposit, with remainder to be paid on completion.  
-Configuration assistance is 2 XMR with a 1 XMR deposit, and includes debugging your proxy configurations, ensuring that everything is running, and tuning for your uses/needs.  
-
-SSH access with a sudo-enabled user will be needed for installs, preferably the user that is slated to run the pool.
-
-Please contact Snipa at: proxy_installs@snipanet.com or via IRC on irc.freenode.net in #monero-pools
-
 ## Known Working Pools
 
+Monero:
 * [XMRPool.net](https://xmrpool.net)
 * [supportXMR.com](https://supportxmr.com)
 * [pool.xmr.pt](https://pool.xmr.pt)
@@ -111,4 +107,8 @@ Please contact Snipa at: proxy_installs@snipanet.com or via IRC on irc.freenode.
 * [MoneroOcean.stream](https://moneroocean.stream)
 * [SECUmine.net](https://secumine.net)
 * [Chinaenter.cn](http://xmr.chinaenter.cn)
-If you'd like to have your pool added, please make a pull request here, or contact Snipa on IRC!
+
+Sumokoin:
+* [Hashvault](https://sumokoin.hashvault.pro)
+
+If you'd like to have your pool added, please make a pull request here.

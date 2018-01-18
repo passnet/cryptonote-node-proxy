@@ -1,21 +1,21 @@
 {
-  "name": "xmr-node-proxy",
-  "version": "0.0.1",
-  "description": "Node proxy for XMR pools based on nodejs-pool, should support any coins that nodejs-pool does with little work",
+  "name": "cryptonote-node-proxy",
+  "version": "0.0.2",
+  "description": "Node proxy for CryptoNote (Monero, Sumokoin, AEON, etc) pools based on nodejs-pool, should support any coins that nodejs-pool does with little work",
   "main": "proxy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/snipa22/xmr-node-proxy.git"
+    "url": "git+https://github.com/passnet/cryptonote-node-proxy"
   },
   "author": "Alexander Blair",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/snipa22/xmr-node-proxy/issues"
+    "url": "https://github.com/passnet/cryptonote-node-proxy/issues"
   },
-  "homepage": "https://github.com/snipa22/xmr-node-proxy#readme",
+  "homepage": "https://github.com/passnet/cryptonote-node-proxy",
   "dependencies": {
     "async": "2.1.4",
     "bignum": "^0.12.5",
