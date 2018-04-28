@@ -113,7 +113,7 @@ Monero:
 * [SECUmine.net](https://secumine.net)
 * [Chinaenter.cn](http://xmr.chinaenter.cn)
 
-Sumokoin:
-* [Hashvault](https://sumokoin.hashvault.pro)
+Multicoin pool:
+* [Hashvault](https://www.hashvault.pro)
 
 If you'd like to have your pool added, please make a pull request here.
