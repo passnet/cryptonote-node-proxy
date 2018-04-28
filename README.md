@@ -2,9 +2,14 @@
 
 ## Other cryptocurrency support
 
-This proxy fork also supports Sumokoin (recently updated to support Aomori Sumokoin release with new Cryptonight-Heavy algorithm). Please see config_example.json on how to configure it. Proxy can work with multiple coins at the same time but different port for every coin. Shares are also different for each coin. Example config includes Sumokoin on port 4444 as example.
+Supported algorithms:
+* Cryptonight (electroneum and many other coins). Set coin to etn in the pool config, or copy lib/etn.js file to lib/yourcoin.js and add corresponding section in config.json.
+* Cryptonight-heavy (SUMO)
+* Cryptonightv7 (Monero v7)
 
-Upstream also supports AEON but this wasn't noted before. It can be configured same way.
+## Update from previous version
+
+Please run `npm update` if upgrading from previous release. This is to ensure new crypto libraries are downloaded and built.
 
 ## Setup Instructions
 
